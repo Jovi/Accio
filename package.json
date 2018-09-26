@@ -1,0 +1,30 @@
+{
+  "name": "accio",
+  "version": "1.0.0",
+  "description": "Dynamic package loader for browser env",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack.config.js -w",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jovi/Accio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jovi/Accio/issues"
+  },
+  "homepage": "https://github.com/Jovi/Accio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  }
+}
